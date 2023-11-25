@@ -14,3 +14,13 @@ Content-Type: application/json
     "account": "test",
     "charges": 15 
 }
+
+###
+# @name Charge
+POST http://localhost:3000/balance
+Content-Type: application/json
+
+{
+    "account": "test"
+}
+
